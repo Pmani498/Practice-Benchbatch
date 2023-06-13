@@ -29,7 +29,7 @@ public class CommonPage {
 		return	driver.findElement(By.xpath(xpath));
 	}
 
-	//intiallization
+	//Intiallization
 	public CommonPage(WebDriver driver){
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
