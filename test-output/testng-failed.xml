@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="crm.vtiger.contacts.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="createContactWithOrganizationTest"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+        </methods>
+      </class> <!-- crm.vtiger.contacts.CreateContactWithOrganizationTest -->
+      <class name="crm.vtiger.organization.SelectDateInOrgCalenderTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+          <include name="selectDateInOrgCalenderTest"/>
+        </methods>
+      </class> <!-- crm.vtiger.organization.SelectDateInOrgCalenderTest -->
+      <class name="crm.vtiger.contacts.CreateContactTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+          <include name="createContactTest"/>
+        </methods>
+      </class> <!-- crm.vtiger.contacts.CreateContactTest -->
+      <class name="crm.vtiger.organization.SelectOrganizationInListTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="selectOrganizationInListTest"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+        </methods>
+      </class> <!-- crm.vtiger.organization.SelectOrganizationInListTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="crm.vtiger.contacts.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="createContactWithOrganizationTest"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+        </methods>
+      </class> <!-- crm.vtiger.contacts.CreateContactWithOrganizationTest -->
+      <class name="crm.vtiger.organization.SelectDateInOrgCalenderTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+          <include name="selectDateInOrgCalenderTest"/>
+        </methods>
+      </class> <!-- crm.vtiger.organization.SelectDateInOrgCalenderTest -->
+      <class name="crm.vtiger.contacts.CreateContactTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+          <include name="createContactTest"/>
+        </methods>
+      </class> <!-- crm.vtiger.contacts.CreateContactTest -->
+      <class name="crm.vtiger.organization.SelectOrganizationInListTest">
+        <methods>
+          <include name="intiallizationTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="selectOrganizationInListTest"/>
+          <include name="tearDown"/>
+          <include name="intaillationSetUp"/>
+        </methods>
+      </class> <!-- crm.vtiger.organization.SelectOrganizationInListTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
